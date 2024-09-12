@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Paneli</title>
+    <link rel="stylesheet" href="assets/styles/login.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link id="theme-stylesheet" rel="stylesheet" href="assets/styles/login.css">
+    <script src="assets/js/theme-toggle.js" defer></script>
+    <script src="https://kit.fontawesome.com/69cbe1aaa6.js" crossorigin="anonymous"></script>
+    <script src="assets/js/login.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <span></span>
+            <input type="checkbox" class="theme-checkbox" id="theme-toggle">
+        </div>
+        
+        
+        <img src="assets/img/logo.png" alt="Logo">
+        <div class="login-container">
+            
+            <h1>BackLink - Login</h1>
+            <p>Giriş yapmak için lütfen bu formu doldurun!</p>
+            <form action="/index.html" method="get">
+                <div class="form-group">
+                    <label for="username">Kullanıcı Adı</label>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Kullanıcı" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    </div>
+                  </div>
+                
+                  <div class="form-group">
+                    <label for="confirm-password">Şifre</label>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
+                      </div>
+                      
+                      <input type="password" class="form-control" id="password" placeholder="Şifreniz">
+                    </div>
+                  </div>
+
+                <button type="submit" class="login-btn">Giriş Yap</button>
+                <div class="text-center">
+                    <a href="#">Parolanızı mı unuttunuz?</a>
+                </div>
+                <div class="text-center">
+                    <p>Hesabınız yok mu? <a href="register.html">Buradan kaydolun</a></p>
+                </div>
+                
+            </form>
+          
+
+
+    </div>
+    
+</body>
+</html>

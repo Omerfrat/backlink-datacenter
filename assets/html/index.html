@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BackLink - SEO | Otomasyon</title>
+  <link rel="stylesheet" href="/styles/style.css">
+  <link id="theme-stylesheet" rel="stylesheet" href="/styles/dark-mode.css">
+  <script src="/js/main.js" defer></script>
+  <script src="/js/theme-toggle.js" defer></script>
+  <script src="https://kit.fontawesome.com/69cbe1aaa6.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+
+
+  <header>
+    <div class="header">
+      <h1>Backlink Site Bilgi Girişleri</h1>
+      <input type="checkbox" class="theme-checkbox" id="theme-toggle">
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top nav-underline">
+      <div class="container">
+        <a class="navbar-brand" href="/html/index.html">Backlink Site Bilgi Girişleri</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav column-gap-3">
+            <li class="nav-item">
+              <a class="nav-link" href="/html/domainlist.html"><i class="fa-solid fa-lines-leaning"></i>Domain List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-server "></i>Calisan Hosting</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                aria-expanded="false"><i class="fa-solid fa-screwdriver-wrench"></i>Toollar</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/html/python-tool.html">Python Tool</a></li>
+                <li><a class="dropdown-item" href="#">Checker</a></li>
+                <li><a class="dropdown-item" href="#">Da Pa Checker</a></li>
+                <li><a class="dropdown-item" href="#">TXT'ler</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Bütün Araçlar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/telegram.html"><i class="fa-solid fa-file-lines"></i>TXT Log Kanalları</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- <aside>
+    <ul class="mcd-menu">
+      <li>
+        <a href="index.html" class="active">
+          <i class="fa fa-home"></i>
+          <strong>Home</strong>
+        </a>
+      </li>
+      <li>
+        <a href="" class="active">
+          <i class="fa-solid fa-lines-leaning"></i>
+          <strong>Domain List</strong>
+        </a>
+      </li>
+      <li>
+        <a href="" class="active">
+          <i class="fa-solid fa-server "></i></i>
+          <strong>Calisan Hosting</strong>
+        </a>
+      </li>
+      <li>
+        <a href="" class="active">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <strong>Toollar</strong>
+        </a>
+        <ul>
+          <li><a href="python-tool.html"><i class="fa fa-globe"></i>Python Tool</a></li>
+          <li><a href="#"><i class="fa fa-group"></i>Checker</a></li>
+          <li><a href="#"><i class="fa fa-trophy"></i>Da Pa Checker</a></li>
+          <li><a href="#"><i class="fa fa-certificate"></i>TXT'ler</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="telegram.html" class="active">
+          <i class="fa-solid fa-file-lines"></i>
+          <strong>TXT Log Kanalları</strong>
+        </a>
+      </li>
+    </ul>
+  </aside> -->
+
+  <main>
+
+    <button id="openModal" class="veri-giris" >
+      <p>Veri Ekle</p>
+      <label id="svg-bc">
+        <svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <path
+            d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM232 344l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z" />
+        </svg>
+      </label>
+    </button>
+
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-content-title">
+          <span id="closeModal" class="close">&times;</span>
+          <h2>Bilgi Girişi Formu</h2>
+        </div>
+        <form id="infoForm">
+          <fieldset>
+            <legend>Eklemek İstediğiniz Ürün</legend>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">Domain:</span>
+              <input type="text" id="domain" name="domain" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" >
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">Hosting Girişi:</span>
+              <input type="text" id="hosting" name="hosting" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" >
+            </div>            
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">Kullanıcı Adı:</span>
+              <input type="text" id="username" name="username" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" >
+            </div>            
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">Şifre:</span>
+              <input type="password" id="password" name="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" >
+            </div>
+            </fieldset>
+            <button type="submit">Ekle</button>
+          </form>
+      </div>
+    </div>
+    <div class="search">
+      <input type="search" id="search" placeholder="🔍 Arama yapın...">
+    </div>
+
+    <table id="infoTable" class="table table-bordered caption-top">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Domain</th>
+          <th scope="col">Hosting Girişi</th>
+          <th scope="col">Kullanıcı Adı</th>
+          <th scope="col">Şifre</th>
+        </tr>
+      </thead>
+      <tbody id="domainTableBody" class="table-group-divider">
+        <!-- Veriler burada görünecek -->
+      </tbody>
+    </table>
+  </main>
+</body>
+
+</html>

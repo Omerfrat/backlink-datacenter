@@ -1,0 +1,144 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+*:focus {
+  outline: none;
+}
+
+/* css reset bitis */
+
+
+/* Light Mode Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+}
+
+header {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #000000; /* Dark text */
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #000000; /* Dark text */
+  
+}
+
+.mcd-menu li a strong {
+  color: #2c2c2c;
+}
+
+table, th, td {
+  border: 1px solid #cccccc; /* Light grey border */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f0f0f0; /* Light grey background */
+}
+
+
+
+/* Search Box Styles */
+.search {
+  border-radius: 4px;
+  margin: 20px 0;
+  box-shadow: 0px 0px 10px 2px rgba(102,102,102,0.75);
+}
+
+.search input[type="search"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #cccccc; /* Light grey border */
+  border-radius: 4px;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Dark text */
+}
+
+/* Theme Checkbox Styles */
+.theme-checkbox {
+  --toggle-size: 9px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 6.25em;
+  height: 3.125em;
+  background: linear-gradient(to right, #ffffff 50%, #cccccc 50%) no-repeat;
+  background-size: 205%;
+  background-position: 0;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 99em;
+  position: relative;
+  cursor: pointer;
+  font-size: var(--toggle-size);
+}
+
+.theme-checkbox::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0.438em;
+  left: 0.438em;
+  background: linear-gradient(to right, #ffffff 50%, #cccccc 50%) no-repeat;
+  background-size: 205%;
+  background-position: 100%;
+  border-radius: 50%;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.theme-checkbox:checked::before {
+  left: calc(100% - 2.25em - 0.438em);
+  background-position: 0;
+}
+
+.theme-checkbox:checked {
+  background-position: 100%;
+}
+
+
+header input {
+  border: 1px solid black;
+}
+

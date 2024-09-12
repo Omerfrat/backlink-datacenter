@@ -1,0 +1,44 @@
+[
+  {
+    "imageSrc": "/img/downloadicon.png",
+    "title": "Tekbir Txt Yapma(1)",
+    "text": "Detaylar Burada!!!",
+    "link": "/downloads/tools/2-TekbirTxtYapma.zip"
+  },
+  {
+    "imageSrc": "/img/downloadicon.png",
+    "title": "Cpanel WHM Format",
+    "text": "Detaylar Burada!!!",
+    "link": "/downloads/tools/Cpanel-WHMFormat.zip"
+  },
+  {
+    "imageSrc": "/img/downloadicon.png",
+    "title": "Id Domain List",
+    "text": "Detaylar Burada!!!",
+    "link": "/downloads/tools/idDomaillist.zip"
+  },
+  {
+    "imageSrc": "/img/downloadicon.png",
+    "title": "Karşılaştırma",
+    "text": "Detaylar Burada!!!",
+    "link": "/downloads/tools/Karşılaştırma.zip"
+  },
+  {
+    "imageSrc": "/img/downloadicon.png",
+    "title": "Tekbir TXT Yapma",
+    "text": "Detaylar Burada!!!",
+    "link": "/downloads/tools/Tekbir-Txt-Yapma.zip"
+  },
+  {
+    "imageSrc": "/img/downloadicon.png",
+    "title": "Market List WHM Cpanel Toplama",
+    "text": "Detaylar Burada!!!",
+    "link": "/downloads/tools/MarketlistWHMCpanelToplama.zip"
+  },
+  {
+    "imageSrc": "/img/downloadicon.png",
+    "title": "Tüm Data Toplama",
+    "text": "Detaylar Burada!!!",
+    "link": "/downloads/tools/TümDataToplama.zip"
+  }
+]

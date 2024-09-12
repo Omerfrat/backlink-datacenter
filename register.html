@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kayıt Sayfası</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link id="theme-stylesheet" rel="stylesheet" href="assets/styles/style.css">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <script src="assets/js/theme-toggle.js" defer></script>
+  <script src="https://kit.fontawesome.com/69cbe1aaa6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-body-header">
+              <span></span>
+              <h3 class="card-title text-center">Kayıt Ol</h3>
+              <div class="header-container">
+                <span></span>
+                <input type="checkbox" class="theme-checkbox" id="theme-toggle">
+              </div>
+            </div>
+
+            <form>
+
+              <div class="form-group">
+                <label for="username">Kullanıcı Adı</label>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Kullanıcı" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                </div>
+              </div>
+
+
+              <div class="form-group">
+                <label for="email">E-posta</label>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                  </div>
+                  <input type="email" class="form-control" id="email" placeholder="E-posta Adresinizi Girin">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="password">Şifre</label>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
+                  </div>
+                  
+                  <input type="password" class="form-control" id="password" placeholder="Şifrenizi Girin">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="confirm-password">Şifreyi Onaylayın</label>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
+                  </div>
+                  
+                  <input type="password" class="form-control" id="confirm-password" placeholder="Şifrenizi Tekrar Girin">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Kayıt Ol</button>
+            </form>
+            <div class="text-center mt-3">
+              <p>Zaten bir hesabınız var mı? <a href="login.html">Giriş Yap</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
